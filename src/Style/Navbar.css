@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #141517;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar a::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #141517;
+    animation: showright 1s ease forwards;
+    animation-delay: .3s;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 5%;
+    z-index: 100;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #141517;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-left: 35px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li.active a{
+    color: #66FF00;
+}  
+
+/* Responsive Styles */
+.menu-icon {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Mobile Navigation */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #141517;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar ul li {
+        margin: 15px 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    .btn{
+        width: 100px;
+    }
+}

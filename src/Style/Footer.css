@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    color: #fff;
+}
+.footer-text{
+    font-size: 1.6rem;
+}
+.footer-icontop{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem 1rem;
+    border-radius: .8rem;
+    transition: .5s ease;
+    background: #1111;
+}
+.footer-icontop a:hover{
+    box-shadow: 0 0 1rem #51ff00;
+}
+.footer-icontop a img{
+    font-size: 2.4rem;
+    padding: 1rem;
+}
+.footer-icontop a{
+    border-radius: 50%;
+    background: #202020;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-text p{
+        font-size: .6em;
+        /* margin-right: 60px; */
+        padding: 0;
+    }
+    .footer-icontop a img{
+        font-size: 1rem;
+        padding: 8px;
+    }
+}

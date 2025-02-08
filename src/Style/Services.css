@@ -1,0 +1,378 @@
+/* ------------------->Services Section<---------------- */
+.services{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.services h2{
+    text-align: center;
+    line-height: 10.5rem;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-box{
+    width: 25vw;
+    height: 82vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:#141517;
+    transition: .5s ease;
+    box-shadow: 0 0 10px #7FFF00;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+.heading{
+    padding: 3rem;
+    color: #fff;
+}
+.heading span{
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px #7FFF00;
+    animation: scrooll 2s linear infinite;
+    animation-delay: calc(-4s * var(--i));
+}
+.services-container .services-box:hover{
+    border-color: #020c16;
+    transform: scale(1.02);
+}
+.services-box img{
+    width: 4rem;
+    color: #020c16;
+}
+.services-box  h3{
+    font-size: 1.5rem;
+}
+.services-box p{
+    font-size: 1.5rem;
+    margin: 1rem 0 3rem;
+}
+
+/* ------------------->Skills Section<---------------- */
+.main-text{
+    text-align: center;
+    line-height: 6rem;
+}
+
+.main-text h2{
+   color: transparent;
+   -webkit-text-stroke: .7px #7FFF00;
+   padding: 5px;
+   font-size: 3rem;
+}
+
+.main-text h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.skill-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    margin: 80px;
+    margin-left: 10vw;
+}
+
+.skill-bar{
+    margin-bottom: 3rem;
+}
+
+.skill-main h3{
+    margin-bottom: 2rem;
+    font-size: medium;
+}
+
+.skill-left .skill-bar .skill-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    border: 1px solid  #7FFF00;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #7FFF00;
+    left: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #7FFF00;
+
+}
+
+.skill-info p{
+    color: #fff;
+}
+
+.skill-bar .bar .html{
+    width: 82%;
+    animation: html 2s;
+}
+
+.skill-bar .bar .css{
+    width: 72%;
+    animation: css 2s;
+}
+
+.skill-bar .bar .javascript{
+    width: 52%;
+    animation: javascript 2s;
+}
+
+.skill-bar .bar .react{
+    width: 62%;
+    animation: react 2s;
+}
+
+.skill-bar .bar .nodejs{
+    width: 62%;
+    animation: nodejs 2s;
+}
+
+.skill-bar .bar .mongodb{
+    width: 52%;
+    animation: mongodb 2s;
+}
+
+.skill-left h3{
+    color: #fff;
+    font: 1.5em small-caption;
+    font-weight: 700;
+}
+
+@keyframes html {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 82%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 72%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 52%;
+    }
+}
+
+@keyframes react {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 62%;
+    }
+}
+
+@keyframes nodejs {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 62%;
+    }
+}
+
+@keyframes mongodb {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 52%;
+    }
+}
+
+
+
+/* ------------------------->Skills Right */
+.heading1{
+    color: #fff;
+    font: 1.5em small-caption;
+    font-weight: 700;
+}
+.radial-bars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+    color: #F8FBF8;
+}
+
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 100px;
+}
+
+.radial-bars .radial-bar .progress-bar{
+    stroke-width: 10px;
+    stroke: #080808;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar{
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+
+.path{
+    stroke-width: 10;
+    stroke: #73ff00;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1{ animation: animate-path1 1s linear forwards;}
+.path-12{ animation: animate-path12 1s linear forwards;}
+.path-13{ animation: animate-path13 1s linear forwards;}
+.path-14{ animation: animate-path14 1s linear forwards;}
+
+@keyframes  animate-path1 {
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes  animate-path12 {
+    100%{
+        stroke-dashoffset: 125;
+    }
+}
+
+@keyframes  animate-path13 {
+    100%{
+        stroke-dashoffset: 175;
+    }
+}
+
+@keyframes  animate-path14 {
+    100%{
+        stroke-dashoffset: 250;
+    }
+}
+
+.radial-bar .percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 1;
+}
+
+.progress-bar .text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 1;
+    color: #F8FBF8;
+}
+
+.text{
+    margin-top: 9rem;
+    margin-left: 5rem;
+}
+@media screen and (max-width: 768px) {
+    .services h2{
+        font-size: 2.5rem;
+    }
+    .services-container{
+        display: grid;
+    }
+    .services-box{
+        width: 60vw;
+        height: auto;
+        margin-right: 30px;
+    }
+    .services-box a{
+        padding: 10px;
+        height: 50px;
+        width: 45%;
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-text h1{
+        margin-right: 60px;
+        font-size: .9em;
+    }
+    .main-text h2{
+        margin-right: 60px;
+        font-size: small;
+    }
+    .skill-main{
+        display: grid;
+        gap: 1px;   
+    }
+    .skill-left .skill-bar .bar{
+        width: 80%;
+    }
+    .skill-left{
+        /* background-color: #7FFF00; */
+        width: 80%;
+    }
+    .skill-bar p{
+        width: 30%;
+    }
+     .text{
+        margin-top: 8rem;
+     }
+}
