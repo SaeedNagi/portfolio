@@ -55,7 +55,7 @@ function Description() {
         <div className="main-text">
           <h1>Technical and professional</h1>
           <h2 className="heading">
-            My<span style={{ "--i": "4;" }}>Skills</span>
+            My <span style={{ "--i": "4;" }}>Skills</span>
           </h2>
         </div>
 
@@ -85,7 +85,7 @@ function Description() {
             <div className="skill-bar">
               <div className="skill-info">
                 <p>JavaScript</p>
-                <p>52%</p>
+                <p>62%</p>
               </div>
               <div className="bar">
                 <span className="javascript"></span>
@@ -95,7 +95,7 @@ function Description() {
             <div className="skill-bar">
               <div className="skill-info">
                 <p>React</p>
-                <p>62%</p>
+                <p>52%</p>
               </div>
               <div className="bar">
                 <span className="react"></span>
@@ -105,7 +105,7 @@ function Description() {
             <div className="skill-bar">
               <div className="skill-info">
                 <p>Node.Js</p>
-                <p>62%</p>
+                <p>52%</p>
               </div>
               <div className="bar">
                 <span className="nodejs"></span>
@@ -115,7 +115,7 @@ function Description() {
             <div className="skill-bar">
               <div className="skill-info">
                 <p>MongoDB</p>
-                <p>52%</p>
+                <p>42%</p>
               </div>
               <div className="bar">
                 <span className="mongodb"></span>

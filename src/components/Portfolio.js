@@ -10,7 +10,7 @@ function Portfolio() {
         <div className="main-text">
           <h1>What I Will Do For You</h1>
           <h2 className="heading">
-            Latest<span style={{ "--i": "4;" }}>Projects</span>
+            Latest <span style={{ "--i": "4;" }}>Projects</span>
           </h2>
 
           <div className="cont">
@@ -29,7 +29,7 @@ function Portfolio() {
                     <div className="port-content">
                         <h3>E-commerce-Frontend Design</h3>
                         <p>My eCommerce site provides a user-friendly shopping experience with modern design, fast performance, and secure payment integration, catering to businesses looking to expand online.</p>   
-                        <a href="https://github.com/SaeedNagi/E-commerce-frontend-site" target="blank"><i class='bx bx-link-external'></i></a>                
+                        <a href="https://e-commerce-site-6b248.web.app/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ function Portfolio() {
                         <h3>greatstack.in Design</h3>
                         <p>We Ensure better education for a better world</p>
                         <p>Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.</p>   
-                        <a href="https://github.com/SaeedNagi/Reactjs" target="blank"><i class='bx bx-link-external'></i></a>                
+                        <a href="https://great-stack-98f8d.web.app/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
             </div>
