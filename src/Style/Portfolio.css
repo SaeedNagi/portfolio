@@ -123,9 +123,9 @@
     .port-box{
         margin: 0px;
         padding: 0%;
-        margin-left: -32px;
+        margin-left: -60px;
         background-color: #7FFF00;
         height: 50vh;
-        width: 70vw;
+        width: 80vw;
     }
 }
