@@ -39,7 +39,7 @@ function Portfolio() {
                     </div>
                     <div className="port-content">
                         <h3>Note App project</h3>                    
-                        <p>A lightweight and user-friendly application for creating, editing, and managing notes. Developed using HTML, CSS, and JavaScript, the app enables users to write and save notes instantly with a clean and responsive design. It demonstrates my skills in DOM manipulation, event handling, and local storage integration to provide persistent note-keeping functionality.</p>  
+                        <p>A simple and responsive app built with HTML, CSS, and JavaScript that lets users create, edit, and save notes using local storage for persistence.</p>  
                         <a href="https://saeednagi.github.io/Note-App/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
@@ -50,7 +50,7 @@ function Portfolio() {
                     </div>
                     <div className="port-content">
                         <h3>To-Do-List App</h3>
-                        <p>A simple yet efficient task management application designed to help users organize daily activities. Built using HTML, CSS, and JavaScript, the app allows users to add, delete, and mark tasks as completed with a clean and responsive interface. This project highlights my ability to implement DOM manipulation, event handling, and local storage for saving tasks, ensuring a seamless user experience.</p>  
+                        <p>A clean and responsive app built with HTML, CSS, and JavaScript that allows users to add, delete, and manage tasks with local storage support.</p>  
                         <a href="https://saeednagi.github.io/To-Do-List-App/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
