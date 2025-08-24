@@ -38,10 +38,9 @@ function Portfolio() {
                         <img src={hero1_CiouO6zv} alt="" />
                     </div>
                     <div className="port-content">
-                        <h3>Real Estate React Design</h3>
-                        <p>Find your next Home in Las Vegas</p> 
-                        <p>Through our proprietary platform, WpResidence is changing how agents and clients navigate the process of finding or selling a home.</p>  
-                        <a href="https://github.com/SaeedNagi/Real-estate-react-design/" target="blank"><i class='bx bx-link-external'></i></a>                
+                        <h3>Note App project</h3>                    
+                        <p>A lightweight and user-friendly application for creating, editing, and managing notes. Developed using HTML, CSS, and JavaScript, the app enables users to write and save notes instantly with a clean and responsive design. It demonstrates my skills in DOM manipulation, event handling, and local storage integration to provide persistent note-keeping functionality.</p>  
+                        <a href="https://saeednagi.github.io/Note-App/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
 
