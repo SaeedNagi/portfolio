@@ -169,28 +169,41 @@
     mix-blend-mode: hard-light;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 668px) {
     .home-info h1{
         font-size: 20px;
-        padding: 2px;
     }
     .home-info h2{
         font-size: 15px;
-        padding: 2px;
     }
     .btn{
-        font-size: small;
+        font-size: 10px;
         width: 100px;
         padding: 2px;
-        height: 30px;
-        padding: -10px;
+        height: 40px;
     }
     .btn-sci img{
-        width: 13px;
+        width: 10px;
+    }
+    .home-info .btn-sci .sci a {
+        padding: 10px;
+        margin: 3px;
+        margin-top: 10px;
+    }
+    .home-info .btn-sci .sci{
+        margin-left: 8px;
     }
     .img-box{
         width: 20px;
         margin-right: 10px;
     }
-
+    .home-info{
+        width: 50vw;
+        margin-left: -20px;
+        height: 15vh;
+        line-height: 2rem;
+    }
+     .home-img{
+      margin-left: 10px;
+    }
 }

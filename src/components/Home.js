@@ -11,7 +11,7 @@ function Home() {
    useEffect(() => {
      if (!el.current) return;
     const typed = new Typed(el.current, {
-      strings: ['Frontend Developer','Creator','React Learner','Web Designer'],
+      strings: ['Frontend Developer','Creator'],
       typeSpeed: 80,
       backSpeed: 50,
       startDelay: 500,

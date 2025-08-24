@@ -32,12 +32,8 @@
 
 @media screen and (max-width: 700px) {
     .footer-text p{
-        font-size: 20px;
+        font-size: 15px;
         /* margin-right: 60px; */
-        padding: 0;
-    }
-    .footer-icontop a img{
-        font-size: 10px;
-        padding: 8px;
+        padding: 5px;
     }
 }

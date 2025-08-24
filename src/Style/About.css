@@ -1,6 +1,4 @@
 .about{
-    /* display: flex; */
-    /* align-items: center; */
     justify-content: center;
     text-align: center;
     gap: 5rem;
@@ -10,13 +8,13 @@
 }
 .about-image{
     /* position: relative; */
-    background-color: #583838;
+    background-color: #161616;
     width: 32vw;
     height: 32vw;
     border-radius: 50%;
     padding: 5px;
     overflow: hidden;
-    margin-left: 38%;
+    margin-left: 35%;
 }
 .about-image img{
     width: 30vw;
@@ -31,20 +29,17 @@
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .7px #7FFF00;
-    padding: 15px;
-    line-height: 10rem;
-    margin-left: 10%;
+    padding: 10px;
+    line-height: 5rem;
+    margin-right: 0%;
 }
 
 .heading{
-    /* text-align: center; */
     font-size: 4.5rem;
 }
 .about-content h3{
     font-size: 2.6rem;
     color: #fff;
-    margin-left: 10%;
-    /* background-color: #7FFF00; */
     margin-top: 3%;
 
 }
@@ -55,32 +50,36 @@
     padding: 5px;
     line-height: 25px;
     margin-top: 3%;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-right: 20%;
 }
 
 @media screen and (max-width: 700px) {
-    .about{
-        gap: 2px;
-        margin: 5px;
-    }
-    .about-content h2{
-        font: 2em sans-serif;
+    .about h2{
+        font-size: 4rem;
     }
     .about-content h3{
-        font: 1.2em sans-serif;
+        font-size: 2rem;
     }
     .about-content p{
-        font: 1em sans-serif;
-         margin-right: 10px;
+        font-size: 15px;
+         margin-right: 80px;
     }
     .about-image img{
-        width: 15vw;
+        width: 30vw;
+        border-radius: 10%;
+        margin-left: 0px;
     }
     .about-image{
-        width: 19vw;
+        background-color: #222222;
+        border-radius: 50%;
     }
     .btn{
         text-align: center;
+    }
+    .about-content a{
+         width: 25vw;
+         height: 6vh;
+         font-size: medium;
     }
 }

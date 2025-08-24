@@ -50,10 +50,9 @@ function Portfolio() {
                         <img src={hero_wMB5D_Q0} alt="" />
                     </div>
                     <div className="port-content">
-                        <h3>Real Estate React Design</h3>
-                        <p>Find your next Home in Las Vegas</p> 
-                        <p>Through our proprietary platform, WpResidence is changing how agents and clients navigate the process of finding or selling a home.</p>  
-                        <a href="https://github.com/SaeedNagi/Real-estate-react-design/" target="blank"><i class='bx bx-link-external'></i></a>                
+                        <h3>To-Do-List App</h3>
+                        <p>A simple yet efficient task management application designed to help users organize daily activities. Built using HTML, CSS, and JavaScript, the app allows users to add, delete, and mark tasks as completed with a clean and responsive interface. This project highlights my ability to implement DOM manipulation, event handling, and local storage for saving tasks, ensuring a seamless user experience.</p>  
+                        <a href="https://saeednagi.github.io/To-Do-List-App/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
             </div>
