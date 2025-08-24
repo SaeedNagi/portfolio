@@ -38,9 +38,9 @@
     resize: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .heading{
-        font: 2.5em sans-serif;
+        font: 2rem sans-serif;
         padding: 0;
     }
     #form-contact{
@@ -48,17 +48,17 @@
         margin-left: 15px;   
     }
     #form-contact input{
-          width: 90vw;     
+          width: 70vw;     
     }
     #form-contact textarea{
-        width: 80vw;
+        width: 70vw;
         height: 10vh;
-        margin-right: 70px;
+        margin-right: 12rem;
     }
     #form-contact .btn{
         width: 30vw;
         padding: 5px; 
         height: 50px;  
-        margin-right: 70px;   
+        margin-right: 13rem;   
     }
 }

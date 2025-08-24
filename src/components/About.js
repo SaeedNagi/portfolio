@@ -5,14 +5,12 @@ function About() {
   return (
     <>
       <div className="about">
+        <h2 className="heading">About <span style={{ "--i": "4;" }}>Me</span></h2>
         <div className="about-image">
           <img src={saeed1} alt="" />
         </div>
 
         <div className="about-content">
-          <h2 className="heading " style={{ "--i": "4;" }}>
-          About <span>Me</span>
-          </h2>
           <h3>Frontend Developer</h3>
           <p>
           A self-motivated BSIT graduate with

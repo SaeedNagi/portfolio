@@ -2,7 +2,7 @@
     background: #141517;
     text-align: center;
     margin: 5rem;
-    line-height: 8rem;
+    /* line-height: 5rem; */
 }
 .filter-butten .btn-butten{
     color: white;
@@ -103,7 +103,7 @@
     color: #050505;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .main-text h1{
         font-size: 1.5rem;
         padding: 0;

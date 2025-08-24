@@ -7,10 +7,7 @@ function Description() {
   return (
     <>
       <div className="services">
-        <h2 className="heading">
-          My <span style={{ "--i": "4;" }}>Service</span>
-        </h2>
-
+        <h2 className="heading">My <span style={{ "--i": "4;" }}>Service</span></h2>
         <div className="services-container">
           <div className="services-box">
             <img src={codealt} alt="" />
@@ -20,7 +17,7 @@ function Description() {
               JavaScript, and frameworks. Ensuring cross-browser compatibility
               and mobile responsiveness.
             </p>
-            <a href="#" className="btn">
+            <a href="/" className="btn">
               Read more
             </a>
           </div>
@@ -33,7 +30,7 @@ function Description() {
               website speed, SEO, and accessibility. Implementing state
               management with Redux, Context API.
             </p>
-            <a href="#" className="btn">
+            <a href="/" className="btn">
               Read more
             </a>
           </div>
@@ -45,7 +42,7 @@ function Description() {
               Implementing on-page SEO (meta tags, structured data, page speed).
               Ensuring proper accessibility (A11Y) and semantic HTML usage.
             </p>
-            <a href="#" className="btn">
+            <a href="/" className="btn B1">
               Read more
             </a>
           </div>
@@ -55,7 +52,7 @@ function Description() {
         <div className="main-text">
           <h1>Technical and professional</h1>
           <h2 className="heading">
-            My <span style={{ "--i": "4;" }}>Skills</span>
+            My <span style={{ "--i": 4 }}>Skills</span>
           </h2>
         </div>
 
@@ -203,46 +200,6 @@ function Description() {
               </div>
             </div>
           </div>
-          {/* <div className="skill-right">
-              <h3>professional Skills</h3>
-              <div className="professional">
-                <div className="box">
-                    <div className="circle" data-dots = "80" data-percent = "80">                 
-                    </div>
-                    <div className="text">
-                      <big>90%</big>
-                      <small>Team Work</small>
-                    </div>
-                </div>
-
-                <div className="box">
-                    <div className="circle" data-dots = "80" data-percent = "80">
-                    </div>
-                    <div className="text">
-                      <big>90%</big>
-                      <small>Team Work</small>
-                    </div>
-                </div>
-
-                <div className="box">
-                    <div className="circle" data-dots = "80" data-percent = "80">
-                    </div>
-                    <div className="text">
-                      <big>90%</big>
-                      <small>Team Work</small>
-                    </div>
-                </div>
-
-                <div className="box">
-                    <div className="circle" data-dots = "80" data-percent = "80">
-                    </div>
-                    <div className="text">
-                      <big>90%</big>
-                      <small>Team Work</small>
-                    </div>
-                </div>
-              </div>
-            </div> */}
         </div>
       </section>
     </>

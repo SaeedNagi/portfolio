@@ -41,7 +41,7 @@ function Portfolio() {
                         <h3>Real Estate React Design</h3>
                         <p>Find your next Home in Las Vegas</p> 
                         <p>Through our proprietary platform, WpResidence is changing how agents and clients navigate the process of finding or selling a home.</p>  
-                        <a href="https://github.com/SaeedNagi/Real-estate-react-design" target="blank"><i class='bx bx-link-external'></i></a>                
+                        <a href="https://github.com/SaeedNagi/Real-estate-react-design/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
 
@@ -50,10 +50,10 @@ function Portfolio() {
                         <img src={hero_wMB5D_Q0} alt="" />
                     </div>
                     <div className="port-content">
-                        <h3>greatstack.in Design</h3>
-                        <p>We Ensure better education for a better world</p>
-                        <p>Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.</p>   
-                        <a href="https://great-stack-98f8d.web.app/" target="blank"><i class='bx bx-link-external'></i></a>                
+                        <h3>Real Estate React Design</h3>
+                        <p>Find your next Home in Las Vegas</p> 
+                        <p>Through our proprietary platform, WpResidence is changing how agents and clients navigate the process of finding or selling a home.</p>  
+                        <a href="https://github.com/SaeedNagi/Real-estate-react-design/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
             </div>
