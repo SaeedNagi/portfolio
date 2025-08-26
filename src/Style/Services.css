@@ -85,7 +85,7 @@
   }
 
   .skills .heading {
-    font-size: 28px;
+    font-size: 40px;
   }
 }
 /* ------------------->Skills Section<---------------- */
@@ -395,12 +395,12 @@
     margin-left: 5rem;
 }
 
-@media screen and (max-width: 700px) {
-    .radial-bars{
-        display: block;
-        line-height: 1rem;
-    }
-}
+/* @media screen and (max-width: 700px) {
+    .radial-bars{ */
+        /* display: block; */
+        /* line-height: 1rem; */
+    /* } */
+/* } */
 @media screen and (max-width: 700px) {
     .services h2{
         font-size: 3rem;
@@ -449,21 +449,26 @@
         font: .6em sans-serif;
     }
     .skill-left h3{
-        font-size: 1.8rem;
-        margin-left: 80px;
+        font-size: 2.5rem;
+        margin-left: 60px;
     }
     .skill-main{
         display: block;
     }
     .container1{
-        width: 120%;
+        width: 85%;
 
     }
      .container1 h1{
-        font-size: 2em;
-         margin-left: 40px;
+        font-size: 2rem;
+         margin-left: 42px;
+         margin-top: 25%;
      }
      .text{
         font-size: larger;
+        margin-left: 1rem
+     }
+     .radial-bars .radial-bar svg{
+        height: 120px;
      }
 }

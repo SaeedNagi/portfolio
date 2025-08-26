@@ -2,7 +2,8 @@ import React from "react";
 import "../Style/Portfolio.css";
 import hero_wMB5D_Q0 from "../Images/hero_wMB5D_Q0.png";
 import hero1_CiouO6zv from '../Images/hero1_CiouO6zv.webp';
-import ecommerce from '../Images/ecommerce.jpeg'
+import ecommerce from '../Images/ecommerce.jpeg';
+import greatstack from '../Images/greatstack.jpg';
 function Portfolio() {
   return (
     <>
@@ -52,6 +53,17 @@ function Portfolio() {
                         <h3>To-Do-List App</h3>
                         <p>A clean and responsive app built with HTML, CSS, and JavaScript that allows users to add, delete, and manage tasks with local storage support.</p>  
                         <a href="https://saeednagi.github.io/To-Do-List-App/" target="blank"><i class='bx bx-link-external'></i></a>                
+                    </div>
+                </div>
+
+                <div className="port-box">
+                    <div className="image-box">
+                        <img src={greatstack} alt="logo" />
+                    </div>
+                    <div className="port-content">
+                        <h3>Great Stack.in</h3>
+                        <p>A React-based web application deployed on Firebase Hosting that requires JavaScript to render interactive content.</p>  
+                        <a href="https://great-stack-98f8d.web.app/" target="blank"><i class='bx bx-link-external'></i></a>                
                     </div>
                 </div>
             </div>

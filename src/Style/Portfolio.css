@@ -105,7 +105,7 @@
 
 @media screen and (max-width: 700px) {
     .main-text h1{
-        font-size: 1.3rem;
+        font-size: 2rem;
         padding: 0;
     }
     .main-text h2{
@@ -124,8 +124,7 @@
         margin: 0px;
         padding: 0%;
         margin-left: -60px;
-        background-color: #7FFF00;
-        height: 60vh;
+        height: 40vh;
         width: 80vw;
     }
 }
